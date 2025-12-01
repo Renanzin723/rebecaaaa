@@ -3,7 +3,6 @@ import { Hero } from './components/Hero';
 import { Story } from './components/Story';
 import { Pricing } from './components/Pricing';
 import { Footer } from './components/Footer';
-import { GeminiInteract } from './components/GeminiInteract';
 import { BookOpen, Star, Users } from 'lucide-react';
 
 const App: React.FC = () => {
@@ -55,8 +54,6 @@ const App: React.FC = () => {
 
         <Story />
         
-        <GeminiInteract />
-
         {/* Feature Highlights */}
         <section className="py-20 bg-white">
           <div className="container mx-auto px-4">
